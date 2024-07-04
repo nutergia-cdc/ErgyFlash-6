@@ -461,4 +461,34 @@ Start Important Part
 /*================================================
 End Important Part
 ==================================================*/
+.box {
+  width: 10%;
+min-width: 200px;
+    font-size: 15px;
+padding: 5px; 
+}
+
+#un {
+  position: fixed;
+  bottom: 50px;
+  left: 20px;
+  
+}
+
+@layer reset, base, animation;
+
+@layer animation {
+  @keyframes heartbeat {
+    to {
+      scale: 1.4;
+    }
+  }
+  
+  .heartbeat {
+    animation: heartbeat .25s alternate;
+      animation-iteration-count: 4;
+      animation-delay: 1s;
+   
+  }
+}
 
