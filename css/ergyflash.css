@@ -202,6 +202,16 @@ color: #000; }
     align-items: flex-start;
     
 }
+.flex-mid {
+     align-content: center;
+
+
+
+    
+}
+
+
+
 .banner-left {
     
     padding-top: 50px;
@@ -487,7 +497,7 @@ padding: 5px;
   .heartbeat {
     animation: heartbeat .25s alternate;
       animation-iteration-count: 4;
-      animation-delay: 1s;
+      animation-delay: 3s;
    
   }
 }
