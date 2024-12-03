@@ -35,8 +35,15 @@
   to   { top: -600px; } /* This must be far enough off screen to allow the largest object to wander off with enough delay before restarting at the bottom, to be caught by the interval timer */
 }
 
+.cap{
+    text-transform: uppercase;
+}
 
 
+.white {
+    
+    color : #fff;
+}
 
 .edito {
         
@@ -51,7 +58,7 @@ color: #282828; }
  }
 
 
-editoplein h3{
+.editoplein h3{
      
 color: #000; }
 
@@ -68,6 +75,10 @@ color: #000; }
         
 }
 
+.karos {
+        
+    color: #fe0058;}
+
 .bf {
         
     border: solid 2px #00468e;
@@ -77,20 +88,20 @@ color: #000; }
         
     border: solid 2px #00468e;
         background-color:#00468e;
-    color : fff;
+    color : #fff;
 }
 
 .bfplein ul li{
         
     border: solid 2px #00468e;
         background-color:#00468e;
-    color : fff;
+    color : #fff;
 }
 
 
 .bfplein p {
         
-    color : fff;
+    color : #fff;
 }
 
 
@@ -152,6 +163,11 @@ color: #000; }
     color: #fff;
 }
 
+ .envplein p {
+        
+    color : #fff;
+}
+
 .rota {
     list-style-type:decimal-leading-zero ; 
     padding-left : 20px;
@@ -204,13 +220,14 @@ color: #000; }
 }
 .flex-mid {
      align-content: center;
-
-
-
     
 }
 
-
+.flexcenter {
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
 
 .banner-left {
     
@@ -226,7 +243,7 @@ color: #000; }
 .femme{color:#c30069; 
 text-transform: uppercase; }
 
-.femplein{
+.templein{
         
     border: solid 2px #df74ae;
         background-color:#df74ae;
@@ -242,6 +259,15 @@ text-transform: uppercase; }
     padding: 50px;
     
 }
+.rounded3
+{
+ margin-top: 10px;
+
+ -webkit-border-radius:40px;   
+    padding: 5px;
+    
+}
+
 
 .roundedimg
 {
@@ -436,7 +462,7 @@ margin-top: -90px;
 }
 h6{font-weight: 100;}
 
-.puce {margin-left: 20px;
+.puce {margin-left: 40px;
     list-style-type :disc;
  }
 
@@ -484,6 +510,7 @@ padding: 5px;
   left: 20px;
   
 }
+
 
 @layer reset, base, animation;
 
