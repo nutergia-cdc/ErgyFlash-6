@@ -52,7 +52,7 @@
 color: #282828; }
 
 .editoplein {
-    border: solid 2px #fff;
+    border: solid 5px #fff;
         color: #fff;
     font-weight: 300;
         background-color:#7ab2e1;
@@ -82,34 +82,50 @@ color: #000; }
 
 .karosplein {
         
-    border: solid 2px #fff;
+    border: solid 5px #fff;
         background-color:#ed0057;
     color : #fff;
 }
 
 .karosplein2 {
         
-    border: solid 2px #fff;
-        background-color:#f94b92;
+    border: solid 5px #fff;
+        background-color:rgba(238, 61, 89, 0.6);
     color : #fff;
 }
+.karosplein2 p{
+        
+    padding: 10px;
+}
+
+.karosplein2 p sup{
+        
+     color : #fff;
+}
+
 
 .bf {
         
     border: solid 2px #00468e;
         background-color:#fff;
 }
+
+.bf sub {
+        
+        color:#777;
+}
+
+
 .bfplein {
         
-    border: solid 2px #00468e;
+    border: solid 5px #fff;
         background-color:#00468e;
     color : #fff;
 }
 
 .bfplein ul li{
         
-    border: solid 2px #00468e;
-        background-color:#00468e;
+    
     color : #fff;
 }
 
@@ -118,6 +134,7 @@ color: #000; }
         
     color : #fff;
 }
+
 
 
 .titrebf {
@@ -276,7 +293,7 @@ text-transform: uppercase; }
 }
 .rounded3
 {
- margin-top: 10px;
+
 
  -webkit-border-radius:40px;   
     padding: 5px;
